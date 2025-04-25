@@ -1,8 +1,17 @@
 /*Base Resets*/
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+/*Universal Styling*/
+html{
+    background-color: #ffffff;
+    color: #555;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-rendering: optimizeLegibility;
 }
