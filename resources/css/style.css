@@ -130,13 +130,14 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
 .divider {
     height: 2px;
     background-color: #e67e22;
     width: 100px;
-    margin: 10px auto;
+    margin: 5px auto 20px;
 }
 
 .long-copy {
