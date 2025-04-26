@@ -52,6 +52,7 @@ h1 {
     text-decoration: none;
     font-weight: 300;
     border-radius: 200px;
+    transition: background-color .2s, border .2s;
 }
 
 .btn-full:link, .btn-full:visited {
@@ -72,5 +73,9 @@ h1 {
 
 .btn-ghost:hover, .btn-ghost:active {
     color: #fff;
+    border: 1px solid #cf6d17;
+}
+
+.btn-full:hover, .btn-full:active {
     border: 1px solid #cf6d17;
 }
