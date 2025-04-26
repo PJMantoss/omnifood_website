@@ -96,5 +96,16 @@ h1 {
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
-    
+
 }
+
+.main-nav li a:link, .main-nav li a:visited {
+    text-decoration: none;
+    font-size: 90%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main-nav li a:hover, .main-nav li a:active {
+    border-bottom: 1px solid #cf6d17;
+} 
