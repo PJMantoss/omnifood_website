@@ -17,7 +17,7 @@ html{
 }
 
 .row{
-    max-width: 71.25rem;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ h1 {
 
 .hero-text-box {
     position: absolute;
-    width: 71.25rem;
+    width: 1140px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
