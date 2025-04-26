@@ -27,3 +27,15 @@ header {
     background-size: cover;
     background-position: center;
 }
+
+h1 {
+    margin: 0;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 71.25rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
