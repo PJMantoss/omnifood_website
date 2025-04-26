@@ -59,7 +59,7 @@ h1 {
     background-color: #e67e22;
     border: #e67e22;
     color: #fff;
-    margin: 0 25px 0 0;
+    margin-right: 25px;
 }
 
 .btn-ghost:visited, .btn-ghost:link {
