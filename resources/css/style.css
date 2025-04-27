@@ -357,6 +357,12 @@ blockquote::before{
     background-color: #fff;
     width: 90%;
     border-radius: 5px;
+    margin-left: 5%;
+}
+
+.plan-box div {
+    padding: 1rem;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 /* Plans Section Ends */
