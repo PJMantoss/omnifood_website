@@ -372,6 +372,11 @@ blockquote::before{
     color: #e67e22;
 }
 
+.plan-price span {
+    font-size: 0.3rem;
+    font-weight: 300;
+}
+
 .price-plan-meal {
     font-size: 0.8rem;
 }
