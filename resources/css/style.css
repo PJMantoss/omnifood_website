@@ -201,3 +201,21 @@ h3 {
     transform: scale(1.05);
     opacity: 1;
 }
+.steps-box:first-child{
+    padding-right: 3%;
+    margin-top: 2rem;
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 2rem;
+}
+
+.download-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+/* .works-step {
+    width: ;
+} */
