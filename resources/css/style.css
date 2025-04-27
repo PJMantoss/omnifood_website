@@ -401,6 +401,11 @@ blockquote::before{
 
 /* Plans Section Ends */
 
-/* Sign Up Section */
+/* Form Section */
 
-/* Sign Up Section Ends */
+.section-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Form Section Ends */
