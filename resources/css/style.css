@@ -169,6 +169,10 @@ h3 {
     margin-bottom: 10px;
 }
 
+.section-meals {
+    padding: 0;
+}
+
 .meals-showcase {
     width: 100%;
     list-style: none;
@@ -177,4 +181,18 @@ h3 {
 
 .meals-showcase li {
     width: 25%;
+}
+
+.meal-photo {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.meal-photo img {
+    width: 100%;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.1);
 }
