@@ -412,7 +412,8 @@ blockquote::before{
 
 input[type=text],
 input[type=email],
-select {
+select,
+textarea {
     width: 100%;
     padding: 7px;
     border-radius: 3px;
