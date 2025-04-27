@@ -343,3 +343,13 @@ blockquote::before{
     font-size: 3rem;
 }
 /* Tesimonial sections Ends */
+
+/* Plans Section */
+
+.section-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Plans Section Ends */
