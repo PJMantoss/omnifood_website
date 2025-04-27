@@ -240,10 +240,15 @@ h3 {
     margin-right: 1rem;
 }
 
+/* Download buttons */
 .download-btn{
     display: flex;
     align-items: center;
     margin-top: 3.8rem;
+}
+
+.download-btn a:link, a:visited {
+    border: 0;
 }
 
 .download-btn a img {
