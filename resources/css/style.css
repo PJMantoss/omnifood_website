@@ -337,7 +337,7 @@ cite img {
 blockquote::before{
     position: absolute;
     top: 0;
-    left: 1px;
+    left: 0;
     content: '\201C';
     display: block;
     font-size: 3rem;
