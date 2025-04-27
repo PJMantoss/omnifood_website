@@ -315,6 +315,7 @@ h3 {
 }
 
 blockquote{
+    position: relative;
     font-style: italic;
     padding: 1rem;
     line-height: 1.4;
@@ -323,6 +324,7 @@ blockquote{
 cite {
     display: block;
     font-size: 90%;
+    margin-top: 1.4rem;
 }
 
 cite img {
@@ -332,4 +334,12 @@ cite img {
     margin-right: 0.7rem;
 }
 
+blockquote::before{
+    position: absolute;
+    top: 0;
+    left: 1px;
+    content: '\201C';
+    display: block;
+    font-size: 3rem;
+}
 /* Tesimonial sections Ends */
