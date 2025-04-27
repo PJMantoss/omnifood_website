@@ -206,6 +206,10 @@ h3 {
     margin-top: 2rem;
 }
 
+.app-screen {
+    width: 40%;
+}
+
 .steps-box:last-child{
     padding-left: 3%;
     margin-top: 2rem;
