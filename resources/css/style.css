@@ -395,6 +395,7 @@ blockquote::before{
 }
 
 .plan-box div:first-child {
+    background-color: #fcfcfc;
     border: 5px 5px 0 0;
 }
 
