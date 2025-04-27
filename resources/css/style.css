@@ -278,6 +278,7 @@ h3 {
     margin-bottom: 1 rem;
 }
 
+/* Cities Section */
 .city-feature {
     margin-bottom: 0.3rem;
 }
@@ -298,4 +299,13 @@ h3 {
 .city-feature a:hover, a:active {
     color: #555;
     border-bottom: 1px solid transparent;
+}
+
+/* Tesimonial sections */
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/back-customers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
 }
