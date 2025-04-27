@@ -271,4 +271,5 @@ h3 {
 .city-feature a:link, a:visited {
     text-decoration: none;
     color: #e67e22;
+    border-bottom: 1px solid #e67e22;
 }
