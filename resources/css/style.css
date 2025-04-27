@@ -321,7 +321,14 @@ blockquote{
 }
 
 cite {
+    display: block;
     font-size: 90%;
+}
+
+cite img {
+    width: 2.4rem;
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
 /* Tesimonial sections Ends */
