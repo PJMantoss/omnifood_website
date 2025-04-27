@@ -372,4 +372,8 @@ blockquote::before{
     color: #e67e22;
 }
 
+.price-plan-meal {
+    font-size: 0.8rem;
+}
+
 /* Plans Section Ends */
