@@ -211,11 +211,11 @@ h3 {
     margin-top: 2rem;
 }
 
+.works-step {
+    margin-bottom: 1rem;
+}
+
 .download-btn{
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
 }
-/* .works-step {
-    width: ;
-} */
