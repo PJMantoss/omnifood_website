@@ -389,4 +389,13 @@ blockquote::before{
     padding: 5px 0;
 }
 
+.plan-box div:last-child {
+    border: 0;
+    text-align: center;
+}
+
+.plan-box div:first-child {
+    border: 5px 5px 0 0;
+}
+
 /* Plans Section Ends */
