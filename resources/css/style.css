@@ -313,3 +313,15 @@ h3 {
     background-position: center;
     color: #fff;
 }
+
+blockquote{
+    font-style: italic;
+    padding: 1rem;
+    line-height: 1.4;
+}
+
+cite {
+    font-size: 90%;
+}
+
+/* Tesimonial sections Ends */
