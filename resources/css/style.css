@@ -206,6 +206,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #f4f4f4;
 }
 
 .steps-container {
