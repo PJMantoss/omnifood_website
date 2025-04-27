@@ -381,4 +381,12 @@ blockquote::before{
     font-size: 0.8rem;
 }
 
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
 /* Plans Section Ends */
