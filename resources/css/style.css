@@ -458,29 +458,10 @@ blockquote::before{
     justify-content: flex-start;
     align-items: flex-start;
 }
-/* 
-.c-form {
-    width: 100%;
-    display: flex;
-    align-items: center;
-} */
 
-/* input[type=text],
-input[type=email],
-select,
-textarea {
-    width: 100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    margin: 0 0 1rem 2rem;
-} */
-
-/* textarea {
-    height: 100%;
+/* Footer */
+footer {
+    background-color: #333;
+    font-size: 80%;
+    padding: 3.125rem;
 }
-
-input[type=checkbox]{
-    margin: 10px 5px;
-} */
-/* Form Section Ends */
