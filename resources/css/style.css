@@ -465,3 +465,18 @@ footer {
     font-size: 80%;
     padding: 3.125rem;
 }
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li, .social-links li {
+    display: inline;
+    margin-right: 1.25rem;
+}
