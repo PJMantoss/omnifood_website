@@ -527,11 +527,24 @@ footer p {
         max-width: 1023px;
     }
     .hero-text-box {
-        width: 100%;
+        width: 95%;
     }
 
     h1 {
         font-size: 200%;
+    }
+
+    .logo {
+        margin-left: .5rem;
+    }
+    
+    .main-nav {
+        margin-right: .5rem;
+    }
+    
+    .main-nav li {
+        margin-left: 30px;
+    
     }
 
     .long-copy {
