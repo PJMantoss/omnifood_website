@@ -602,7 +602,16 @@ footer p {
     cite img {
         margin-right: 0.5rem;
     }
+
+    .plan-box {
+        width: 92%;
+        border-radius: .5rem;
+        margin-left: 2%;
+    }
     
+    .plan-box div {
+        padding: .7rem;
+    }
 
     .plan-price {
         font-size: 1.8rem;
@@ -620,13 +629,6 @@ footer p {
     .c-form {
         width: 760px;
         margin: 0 0 1rem 0;
-    }
-
-    .input-field {
-        width: 50%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
     }
 
     footer {
