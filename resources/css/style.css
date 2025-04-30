@@ -590,7 +590,8 @@ footer p {
     }
 
     .meal-photo figcaption {
-        top: 50%;
+        font-size: .9rem;
+        top: 40%;
     }
 
     .plan-price {
