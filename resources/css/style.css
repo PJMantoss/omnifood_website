@@ -587,7 +587,23 @@ footer p {
 
     .main-nav li {
         margin-left: 22px;
-    
+    }
+
+    .meal-photo figcaption {
+        top: 50%;
+    }
+
+    .plan-price {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .price-plan-meal {
+        font-size: 0.6rem;
+    }
+
+    .plan-box ul li {
+        font-size: 0.8rem;
     }
 
     .c-form {
