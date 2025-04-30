@@ -565,6 +565,10 @@ footer p {
     .steps-container {
         padding: 0 1rem;
     }
+
+    footer {
+        padding: 2.5rem;
+    }
 }
 
 /* Small phones to Small Tablets: 481px to 767px */
@@ -584,5 +588,9 @@ footer p {
     .main-nav li {
         margin-left: 22px;
     
+    }
+
+    footer {
+        padding: 2rem;
     }
 }
