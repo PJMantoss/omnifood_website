@@ -523,13 +523,17 @@ footer p {
     body {
         overflow-x: hidden;
     }
-    
+
     section {
         margin: 3rem auto;
     }
     .row{
         max-width: 1023px;
     }
+    header {
+        height: 80vh;
+    }
+
     .hero-text-box {
         width: 95%;
     }
