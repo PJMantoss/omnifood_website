@@ -594,6 +594,16 @@ footer p {
         top: 40%;
     }
 
+    cite {
+        font-size: 80%;
+        margin-top: 1.1rem;
+    }
+    
+    cite img {
+        margin-right: 0.5rem;
+    }
+    
+
     .plan-price {
         font-size: 1.8rem;
         margin-bottom: 0.5rem;
