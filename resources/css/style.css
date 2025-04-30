@@ -537,4 +537,8 @@ footer p {
     .long-copy {
         width: 80%;
     }
+
+    .plans {
+        width: 1023px;
+    }
 }
