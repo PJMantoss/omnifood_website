@@ -636,7 +636,8 @@ footer p {
 
     .c-form {
         width: 760px;
-        margin: 0 auto 1rem auto;
+        margin: 0 0 1rem 0;
+        padding-left: .5rem;
     }
 
     section .section-title {
