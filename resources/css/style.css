@@ -554,4 +554,8 @@ footer p {
     .plans {
         width: 1023px;
     }
+
+    .steps-container {
+        padding: 0 .5rem;
+    }
 }
