@@ -16,6 +16,10 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 section {
     padding: 0;
     margin: 5rem auto;
@@ -518,5 +522,67 @@ footer p {
     color: #517fa4;
 }
 
+/* Media Queries For Responsiveness */
+
+/* Small to Big Tablets: 768px - 1023px */
+@media only screen and (max-width: 1024px){
+    section {
+        margin: 3rem auto;
+    }
+    .row, .plans{
+        max-width: 1023px;
+    }
+    header {
+        height: 80vh;
+    }
+
+    .hero-text-box {
+        width: 95%;
+        top: 40%;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    .logo {
+        margin-left: .5rem;
+    }
+    
+    .main-nav {
+        margin-right: .5rem;
+    }
+    
+    .main-nav li {
+        margin-left: 30px;
+    
+    }
+
+    .long-copy {
+        width: 80%;
+    }
+
+    .steps-container {
+        padding: 0 1rem;
+    }
+}
+
 /* Small phones to Small Tablets: 481px to 767px */
-@media only screen and (max-width: 767px){}
+@media only screen and (max-width: 800px){
+    .row, .plans{
+        max-width: 768px;
+    }
+
+    header {
+        height: 70vh;
+    }
+
+    .hero-text-box {
+        top: 35%;
+    }
+
+    .main-nav li {
+        margin-left: 22px;
+    
+    }
+}
