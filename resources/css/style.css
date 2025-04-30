@@ -590,6 +590,11 @@ footer p {
     
     }
 
+    .c-form {
+        width: 760px;
+        margin: 0 0 1rem 0;
+    }
+
     footer {
         padding: 2rem;
     }
