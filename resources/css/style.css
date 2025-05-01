@@ -249,7 +249,7 @@ h3 {
 }
 
 .steps-container {
-    display: inherit;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
