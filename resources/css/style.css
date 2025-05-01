@@ -612,6 +612,14 @@ footer p {
         width: 45%;
     }
 
+    .section-cities .icon-small {
+        margin-right: 0;
+    }
+
+    .section-cities .city-feature {
+        font-family: 1rem;
+    }
+
     cite {
         font-size: 80%;
         margin-top: 1.1rem;
