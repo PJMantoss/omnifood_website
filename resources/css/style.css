@@ -575,6 +575,10 @@ footer p {
 
 /* Small phones to Small Tablets: 481px to 767px */
 @media only screen and (max-width: 800px){
+    body {
+        font-size: 1rem;
+    }
+    
     .row, .plans{
         max-width: 768px;
     }
@@ -585,6 +589,10 @@ footer p {
 
     .hero-text-box {
         top: 35%;
+    }
+
+    .hero-text-box h1 {
+        font-size: 1.6rem;
     }
 
     .main-nav li {
@@ -610,6 +618,10 @@ footer p {
 
     .app-screen {
         width: 45%;
+    }
+
+    .section-cities h3 {
+        font-size: 1.2rem;
     }
 
     .section-cities .icon-small {
