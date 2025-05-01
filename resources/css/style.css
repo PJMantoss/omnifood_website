@@ -613,11 +613,15 @@ footer p {
     }
 
     .section-cities .icon-small {
-        margin-right: 0;
+        width: 1.2rem;
     }
 
     .section-cities .city-feature {
-        font-family: 1rem;
+        font-size: 1rem;
+    }
+
+    .section-cities .city-feature a {
+        font-size: 1rem;
     }
 
     cite {
