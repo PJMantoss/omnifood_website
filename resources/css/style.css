@@ -585,8 +585,6 @@ footer p {
 
     .row {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     header {
@@ -611,6 +609,7 @@ footer p {
     
     .row .box{
         width: 90%;
+        text-align: center;
     }
 
     .meal-photo figcaption {
