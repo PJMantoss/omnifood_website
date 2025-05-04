@@ -588,7 +588,7 @@ footer p {
     }
 
     header {
-        height: 70vh;
+        height: 60vh;
     }
 
     .hero-text-box {
@@ -599,8 +599,8 @@ footer p {
         font-size: 1.6rem;
     }
 
-    .main-nav li {
-        margin-left: 22px;
+    .main-nav {
+        display: none;
     }
 
     .long-copy {
@@ -610,6 +610,10 @@ footer p {
     .row .box{
         width: 90%;
         text-align: center;
+    }
+
+    .icon-big {
+        margin: 0 auto;
     }
 
     .meal-photo figcaption {
