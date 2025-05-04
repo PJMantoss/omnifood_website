@@ -585,6 +585,8 @@ footer p {
 
     .row {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     header {
@@ -601,6 +603,14 @@ footer p {
 
     .main-nav li {
         margin-left: 22px;
+    }
+
+    .long-copy {
+        width: 95%;
+    }
+    
+    .row .box{
+        width: 90%;
     }
 
     .meal-photo figcaption {
