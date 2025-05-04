@@ -616,8 +616,18 @@ footer p {
         margin: 0 auto;
     }
 
+    .meals-showcase {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .meals-showcase li {
+        width: 80%;
+    }
+
     .meal-photo figcaption {
-        font-size: .9rem;
+        font-size: 1.5rem;
         top: 40%;
     }
 
