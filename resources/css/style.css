@@ -529,10 +529,16 @@ footer p {
 /* Media Queries For Responsiveness */
 @media only screen and (max-width: 1200px){
     .plans {
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .plans col, .plan-box {
+        width: 100%;
+        margin: 1rem 0;
     }
 }
 
@@ -541,7 +547,8 @@ footer p {
     section {
         margin: 3rem auto;
     }
-    .row, .plans{
+    
+    .plans{
         width: 100%;
     }
     header {
@@ -700,12 +707,6 @@ footer p {
     .plans .col {
         /* width: 100%; */
         text-align: center;
-    }
-
-    .plan-box {
-        width: 80%;
-        border-radius: .5rem;
-        margin: .5rem auto;
     }
     
     .plan-box div {
