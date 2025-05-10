@@ -748,6 +748,10 @@ footer p {
 }
 
 @media only screen and (max-width: 600px){
+    body {
+        overflow-x: hidden;
+    }
+    
     .row, .plans{
         max-width: 370px;
         width: 100%;
