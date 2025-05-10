@@ -755,6 +755,9 @@ footer p {
 }
 
 @media only screen and (max-width: 600px){
+    .works-step {
+        width: 100%;
+    }
     .contact-form {
         width: 300px;
     }
