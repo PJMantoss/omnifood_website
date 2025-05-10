@@ -21,6 +21,8 @@ body {
 }
 
 section {
+    width: 100%;
+    position: relative;
     padding: 0;
     margin: 5rem auto;
 }
@@ -387,9 +389,9 @@ blockquote::before{
     padding: 2rem 0;
 }
 
-.plans {
+/* .plans {
     width: 1300px;
-}
+} */
 
 .plan-box {
     background-color: #fff;
@@ -525,6 +527,14 @@ footer p {
 }
 
 /* Media Queries For Responsiveness */
+@media only screen and (max-width: 1200px){
+    .plans {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 /* Small to Big Tablets: 768px - 1023px */
 @media only screen and (max-width: 1024px){
@@ -532,7 +542,7 @@ footer p {
         margin: 3rem auto;
     }
     .row, .plans{
-        max-width: 1023px;
+        width: 100%;
     }
     header {
         height: 80vh;
@@ -577,10 +587,6 @@ footer p {
 @media only screen and (max-width: 800px){
     body {
         font-size: 1rem;
-    }
-    
-    .row, .plans{
-        max-width: 768px;
     }
 
     .row {
