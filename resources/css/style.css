@@ -277,7 +277,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid #e67e22;
+    border: 0.25rem solid #e67e22;
     color: #e67e22;
     border-radius: 50%;
     font-size: 150%;
@@ -302,7 +302,7 @@ h3 {
 }
 
 .download-btn a:first-child {
-    margin-right: 10px;
+    margin-right: 0.63rem;
 }
 
 .box img {
@@ -329,14 +329,14 @@ h3 {
 .city-feature a:link, a:visited {
     text-decoration: none;
     color: #e67e22;
-    border-bottom: 1px solid #e67e22;
-    padding-bottom: 2px;
+    border-bottom: 0.06rem solid #e67e22;
+    padding-bottom: 0.13rem;
     transition: border-bottom .5s, color .5s;
 }
 
 .city-feature a:hover, a:active {
     color: #555;
-    border-bottom: 1px solid transparent;
+    border-bottom: 0.06rem solid transparent;
 }
 
 /* Cities Section End */
@@ -406,7 +406,7 @@ blockquote::before{
 
 .plan-box div {
     padding: 1rem;
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 0.06rem solid #e8e8e8;
 }
 
 .plan-price {
@@ -430,7 +430,7 @@ blockquote::before{
 }
 
 .plan-box ul li {
-    padding: 5px 0;
+    padding: 0.31rem 0;
 }
 
 .plan-box div:last-child {
@@ -440,7 +440,7 @@ blockquote::before{
 
 .plan-box div:first-child {
     background-color: #fcfcfc;
-    border: 5px 5px 0 0;
+    border: 0.31rem 0.31rem 0 0;
 }
 
 /* Plans Section Ends */
