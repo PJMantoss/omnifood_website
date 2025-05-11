@@ -605,11 +605,11 @@ footer p {
     }
 
     header {
-        height: 60vh;
+        height: 80vh;
     }
 
     .hero-text-box {
-        top: 35%;
+        top: 40%;
     }
 
     h1 {
@@ -760,7 +760,7 @@ footer p {
 
 @media only screen and (max-width: 600px){
     header {
-        height: 80vh;
+        height: 90vh;
     }
 
     .hero-text-box {
@@ -776,6 +776,6 @@ footer p {
         margin: .5rem 0;
     }
     .contact-form {
-        width: 300px;
+        width: 18.75rem;
     }
 }
