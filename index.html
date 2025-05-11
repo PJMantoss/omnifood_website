@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" 
         rel="stylesheet"
     >
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -46,7 +47,7 @@
         </div>
     </header>
 
-    <section class="section-features" id="features">
+    <section class="section-features" id="features" data-aos="fade-in" data-aos-duration="2000">
         <div class="row main-heading">
             <h2 class="section-title">Get Food Fast &mdash; Not Fast Food</h2>
             
@@ -101,7 +102,7 @@
         </div>
     </section>
 
-    <section class="section-meals">
+    <section class="section-meals" data-aos="fade-in" data-aos-duration="2000">
         <ul class="meals-showcase">
             <li>
                 <figure class="meal-photo">
@@ -157,7 +158,7 @@
         </ul>
     </section>
 <!-- How it Works Section -->
-    <section class="steps" id="hiw">
+    <section class="steps" id="hiw" data-aos="fade-in" data-aos-duration="2000">
         <div class="row">
             <h2 class="section-title">How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
@@ -195,7 +196,7 @@
     <!-- How it Works Section Ends -->
 
     <!-- Cities Section Begins -->
-    <section class="section-cities" id="cities">
+    <section class="section-cities" id="cities" data-aos="fade-in" data-aos-duration="2000">
         <div class="row row-heading">
             <h2 class="section-title">We are currently in these Cities</h2>
         </div>
@@ -263,7 +264,7 @@
         </div>
     </section>
 
-    <section class="section-testimonials">
+    <section class="section-testimonials" data-aos="fade-in" data-aos-duration="2000">
         <div class="row row-heading">
             <h2 class="section-title">What Our Customers are Saying</h2>
         </div>
@@ -297,7 +298,7 @@
     </section>
 
     <!-- Start Eating Healthy Today -->
-    <section class="section-plans" id="plans">
+    <section class="section-plans" id="plans" data-aos="fade-in" data-aos-duration="2000">
         <div class="row">
             <h2 class="section-title">Start eating healthy today</h2>
         </div>
@@ -405,7 +406,7 @@
     </section>
 
     <!-- Contact Form -->
-    <section class="section-form" id="signup">
+    <section class="section-form" id="signup" data-aos="fade-in" data-aos-duration="2000">
         <div class="row">
             <h2 class="section-title">We are happy to hear from you</h2>
         </div>
@@ -528,6 +529,10 @@
                 } // End if
             });
         });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 </html>
