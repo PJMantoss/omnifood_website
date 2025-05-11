@@ -99,6 +99,10 @@ input[type="submit"]:active {
     border: 0.063rem solid #cf6d17;
 }
 
+.navigation {
+    width: 90%;
+}
+
 .logo {
     height: 6.25rem;
     float: left;
@@ -109,12 +113,12 @@ input[type="submit"]:active {
 .main-nav {
     list-style-type: none;
     float: right;
-    margin-top: 3.438rem;
+    margin-top: 3rem;
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 2.5rem;
+    margin-left: 1.6rem;
 
 }
 
@@ -123,13 +127,13 @@ input[type="submit"]:active {
     font-size: 90%;
     color: #fff;
     text-transform: uppercase;
-    border-bottom: 2px solid transparent;
-    padding: 8px 0;
+    border-bottom: 0.13rem solid transparent;
+    padding: 0.5rem 0;
     transition: border-bottom .2s;
 }
 
 .main-nav li a:hover, .main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 0.13rem solid #e67e22;
 } 
 
 /* Hero Section Ends */
