@@ -56,7 +56,7 @@ h1 {
 
 .hero-text-box {
     position: absolute;
-    width: 1140px;
+    width: 71.25rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -64,10 +64,10 @@ h1 {
 
 .btn:link, .btn:visited, input[type="submit"] {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 0.625rem 1.875rem;
     text-decoration: none;
     font-weight: 300;
-    border-radius: 200px;
+    border-radius: 12.50rem;
     transition: background-color .2s, border .2s;
 }
 
@@ -75,11 +75,11 @@ h1 {
     background-color: #e67e22;
     border: #e67e22;
     color: #fff;
-    margin-right: 25px;
+    margin-right: 1.563rem;
 }
 
 .btn-ghost:visited, .btn-ghost:link {
-    border: 1px solid #e67e22;
+    border: 0.063rem solid #e67e22;
     color: #e67e22;
 }
 
@@ -92,15 +92,15 @@ input[type="submit"]:active {
 
 .btn-ghost:hover, .btn-ghost:active {
     color: #fff;
-    border: 1px solid #cf6d17;
+    border: 0.063rem solid #cf6d17;
 }
 
 .btn-full:hover, .btn-full:active{
-    border: 1px solid #cf6d17;
+    border: 0.063rem solid #cf6d17;
 }
 
 .logo {
-    height: 100px;
+    height: 6.25rem;
     float: left;
     width: auto;
     margin-top: 2rem;
