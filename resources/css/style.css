@@ -56,7 +56,7 @@ h1 {
 
 .hero-text-box {
     position: absolute;
-    width: 71.25rem;
+    width: 60rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -109,12 +109,12 @@ input[type="submit"]:active {
 .main-nav {
     list-style-type: none;
     float: right;
-    margin-top: 55px;
+    margin-top: 3.438rem;
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 2.5rem;
 
 }
 
