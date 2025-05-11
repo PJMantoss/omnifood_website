@@ -177,7 +177,7 @@ h3 {
     font-weight: 300;
     font-size: 110%;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 0.94rem;
 }
 
 .box p {
@@ -189,7 +189,7 @@ h3 {
     font-size: 350%;
     display: block;
     color: #e67e22;
-    margin-bottom: 10px;
+    margin-bottom: 0.63rem;
 }
 
 /* Get Food Fast Section Ends */
@@ -264,7 +264,7 @@ h3 {
 
 .app-screen {
     width: 40%;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 0.63rem 0.63rem 0.31rem #aaaaaa;
 }
 
 .works-step {
