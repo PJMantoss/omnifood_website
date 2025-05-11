@@ -150,17 +150,17 @@ h2 {
     font-weight: 300;
     text-transform: uppercase;
     font-size: 180%;
-    word-spacing: 2px;
+    word-spacing: 0.13rem;
     text-align: center;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
+    margin-bottom: 1.88rem;
+    letter-spacing: 0.06rem;
 }
 
 .divider {
-    height: 2px;
+    height: 0.13rem;
     background-color: #e67e22;
-    width: 100px;
-    margin: 5px auto 20px;
+    width: 6.25rem;
+    margin: 0.31rem auto 1.25rem;
 }
 
 .long-copy {
