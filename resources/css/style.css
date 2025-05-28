@@ -562,7 +562,7 @@ footer p {
 
     .hero-text-box {
         width: 92%;
-        top: 40%;
+        top: 50%;
     }
 
     h1 {
@@ -610,7 +610,7 @@ footer p {
     }
 
     .hero-text-box {
-        top: 40%;
+        top: 50%;
     }
 
     h1 {
@@ -761,11 +761,11 @@ footer p {
 
 @media only screen and (max-width: 600px){
     header {
-        height: 90vh;
+        height: 100vh;
     }
 
     .hero-text-box {
-        top: 45%;
+        top: 55%;
     }
 
     h1 {
